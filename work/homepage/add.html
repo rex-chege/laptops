@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form {
+        text-align: center;
+        display: block;
+        font-size: 5 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1
+      style="
+        background-color: aqua;
+        display: block;
+        text-align: center;
+        font-size: 50px;
+        text-decoration: underline;
+        text-transform: uppercase;
+      "
+    >
+      welcome to add cart section
+    </h1>
+    <p style="text-align: center; padding-top: 20px">
+      this is how you can reduce and add number in charset
+    </p>
+
+    <label for="text" id="connect"></label>
+
+    <div class="form">
+      <label id="counter">0</label> <br />
+
+      <button id="reduceButton">reduce</button>
+      <button id="resetButton">0</button>
+      <button id="increaseButton">increase</button>
+    </div>
+    <label for="texting">SING IN</label>
+    <br />
+    <input type="text" name="" id="" />
+
+    <script>
+      let count = 0;
+      document.getElementById("reduceButton").onclick = function () {
+        count -= 1;
+        document.getElementById("counter").innerHTML = count;
+      };
+      document.getElementById("resetButton").onclick = function () {
+        count += 3;
+        document.getElementById("counter").innerHTML = count;
+      };
+      document.getElementById("increaseButton").onclick = function () {
+        count += 1;
+        document.getElementById("counter").innerHTML = count;
+      };
+    </script>
+  </body>
+</html>

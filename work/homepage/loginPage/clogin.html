@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/homepage/cart.css" />
+  </head>
+  <body>
+    <div class="fort">
+      <form action="table" id="formTable">
+        <h2 style="background-color: rgb(247, 243, 243)">Login page</h2>
+        <label for="text" id="myText">usernamer</label> <br />
+        <input type="text" id="myInput" placeholder="harrison chege" /><br />
+
+        <br />
+        <label for="text" id="myText">Password</label> <br />
+        <input type="password" id="myInput" /> <br />
+      </form>
+      <button class="gohome">
+        <a href="/homepage/home.html" style="font-size: 20px" id="loginArea"
+          >LOGIN</a
+        >
+      </button>
+    </div>
+    <script>
+      // Add an event listener to the button
+      document
+        .getElementById("loginArea")
+        .addEventListener("click", function () {
+          // Use window.prompt to get user input
+          var userInput = window.prompt("Enter your first name:");
+          var userInput = window.prompt("Enter your AGE:");
+          var userInput = window.prompt("type okay to continoue:");
+
+          // You can do something with the userInput, like display it in the console
+          console.log("User input:", userInput);
+        });
+    </script>
+  </body>
+</html>

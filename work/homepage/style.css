@@ -1,0 +1,432 @@
+body{
+    margin: 0;
+    padding: 0;
+
+ 
+}
+
+
+.background{
+    background-image: url(/image/online\ courses\ program\ -\ Made\ with\ PosterMyWall\ \(4\).jpg);
+ width: 100%;
+ height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+
+
+
+
+}
+.hometag{
+    display: flex;
+   
+   
+    
+    gap: 15px;
+    width: ft-content;
+    position: absolute;
+    margin-top: 19px;
+    
+}
+h1{
+    color: blueviolet;
+    text-decoration: solid;
+ 
+    
+}
+.color-change-button{
+    background-color: blue;
+    border: none;
+    color:white;
+    padding: 7px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 1.3s ease-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+.color-change-button:hover{
+    background-color:red;
+
+
+}
+.color-change-login{
+     background-color: rgb(0, 255, 0);
+    border: none;
+    color:white;
+    padding: 7px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 1.3s ease-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+.color-change-login:hover{
+    background-color: #520101;
+}
+.color-change-signup{
+background-color: aqua;
+color: white;
+padding: 7px 20px;
+border: none;
+border-radius: 10px;
+text-decoration:none;
+transition: background-color 1.3s ease;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.color-change-signup:hover{
+    background-color:black;
+}
+
+
+
+
+    .header1{
+    font-family: fantasy;
+    font-size: 99px;
+    font-weight: bold;}
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+
+
+.main-count{
+    text-align: center;
+    text-transform: uppercase;
+     color:rgb(6, 6, 6);
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+}
+p{
+    text-align: center;
+}
+
+script{
+    text-align: center;
+}
+
+.editing{
+    padding-bottom: 10cm;
+    color:brown;
+    text-decoration-line: unset;
+    text-align-last: justify;
+    align-items: flex-start;
+    align-content: flex-end;
+}
+
+.header-row {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    
+    
+}
+
+.img-cont{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.img-cont img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.product-card{
+    width: 250px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.product-card .card-img{
+    width: 100%;
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.product-info{
+
+}
+
+.product-info h4{
+    margin: 0;
+    margin-top: 3px;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 3px;
+}
+
+.btn-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-cont button{
+    background-color: #818103;
+    color: #fff;
+    padding: 7px 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-cont p{
+    font-size: 14px;
+    color: #e95353;
+    font-weight: bold;
+}
+
+ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    padding: 3px;
+    font-size: 12px;
+    margin: 0;
+    color: #363434;
+}
+
+@media (max-width: 528.5px){
+    .product-card{
+        width: 320px;
+    }
+}
+.main-sub{
+    background-color: rgb(148, 9, 9);
+    width: 300px;
+   border-radius: 10PX
+   padding:0px;
+   boarder-radius:10px;
+
+}
+.sub-cont{
+    background-color: #520101;
+    width: 100%;
+    height:0%
+    
+}
+.sub-dis{
+    text-align: center;
+    padding-bottom: 0px;
+}
+.text1{
+    font-size: 30px;
+}
+.text2{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+.baba{
+    background-colr: #c08f8f;
+    width: 300px;
+    
+    border-radius: 20px;
+}
+.picture{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin:0px ;
+    font-size: small;
+    border-radius: 50%;
+
+
+}
+.picture img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.majina{
+    border-radius: 10px;
+    background-color: #dbdb9a;
+
+}
+.mandishi{
+    font-size: 10px;
+}
+.press-btn{
+    gap: 20cm;
+    font-size: 20px;
+}
+.liz{
+    text-align: center;
+}
+.main-subject{
+    justify-content: center;
+    display: 
+}
+.editing-btn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.btn-size{
+    font-size: 20px;
+}
+.size-in{
+    font-size: 40px;
+}
+.reseting{
+    justify-content: center;
+}
+
+
+
+.box-kubwa {
+    display: flex;
+    justify-content: center;
+    background-color: #c08f8f;
+    width: 100px;
+    height: ;
+    
+}
+.kuandikia {
+    justify-content: center;
+    background-color: #e95353;
+    width: 100%;
+    height: 100%;
+}
+.main-subjet{
+    background-color: #818103;
+   
+}
+
+.tag{
+    display:flex;
+    justify-content: center;
+    justify-items: auto;
+    background-color: darkmagenta;
+    width: 400px;
+    height: 500px;
+
+    padding-left: 20px;
+}
+.sub-tag{
+    width: 300px;
+   
+ 
+}
+.sub-tag img{
+    width: 100%;
+    border-radius: 13px;
+    align-items: center;
+}
+.tag-editing{
+    background-color: #c08f8f;
+    padding-top: 200px;
+   background-color: crimson;
+}
+.text-edit{
+    text-transform: uppercase;
+    display: flex;
+    text-align: end;
+
+}
+.main-cont{
+    margin-bottom: 200PX;
+    display: fle;
+    justify-content: center;
+    width: 300px;
+    background-color: blueviolet;
+    height: 300px;
+}
+
+.main-cont img{
+width: 100%;
+background-color: #818103;
+  
+ 
+}
+.text-edit{
+    
+}
+.text-edit ul{
+    text-decoration: underline;
+    color: rgb(224, 0, 206);
+    cursor: pointer;
+}
+.table{
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    padding: 30px;
+    
+}
+.table tr{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 20px;
+    background-color: #e6faff;
+    font-size: 40px;
+    color: #5e5400;
+    column-width: 20px;
+    
+ 
+}
+.caption{
+    background-color: #c08f8f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    box-sizing: border-box;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.utility{
+
+    background-color: blueviolet;
+}
+.cart-area{
+    
+    background-color: #818103;
+
+}
+.products{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    margin-top: 300px;
+background-color: aqua;
+}

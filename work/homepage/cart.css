@@ -1,0 +1,52 @@
+body{
+margin: 0;
+
+  /* padding: 0; */
+  /* background: url("/homepage/images/BACK.jpg") center/cover no-repeat fixed; */
+  /* display: fex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* height: 1000vh; */
+  
+  
+   
+}
+.image{
+
+    background-size: cover;
+}
+
+
+    
+
+
+
+.fort{
+text-align: center;
+font-size: 30px;
+background-color: aqua;
+text-transform: uppercase;
+
+margin: auto;
+border-radius: 20px;
+padding-top: 0px;
+
+
+}
+input:focus{
+
+    border:3px solid yellow;
+outline: none;
+ box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
+}
+/* Add this to your existing CSS file */
+
+
+#myInput{
+    border-radius: 7px;
+    background-color: rgb(209, 209, 254);
+}
+.rigister{
+    text-align: center;
+    display: flex;
+}
